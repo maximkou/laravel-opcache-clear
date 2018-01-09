@@ -2,7 +2,6 @@
 
 namespace Maximkou\LaravelOpcacheClear;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 /**
@@ -10,7 +9,7 @@ use Illuminate\Http\Request;
  * Class OpcacheClearController
  * @package Maximkou\LaravelOpcacheClear
  */
-class OpcacheClearController extends Controller
+class OpcacheClearController
 {
     /**
      * @param Request $request
