@@ -1,0 +1,39 @@
+{
+    "name": "maximkou/laravel-opcache-clear",
+    "description": "This Laravel package allows you to clear the OPcache of a PHP application running in FPM mode with ease.",
+    "type": "package",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/console": "5.*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "keywords":
+        [
+            "laravel",
+            "cache",
+            "opcache",
+            "reset",
+            "clear",
+            "purge",
+            "fpm",
+            "php-fpm",
+            "michelecurletta/laravel-opcache-clear"
+        ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michele Giovanni Curletta",
+            "email": "michele.curletta@icloud.com"
+        },
+        {
+            "name": "Maksim Khodyrev",
+            "email": "maximkou@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Maximkou\\LaravelOpcacheClear\\": "src"
+        }
+    }
+}
