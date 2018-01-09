@@ -16,7 +16,7 @@ class OpcacheClearController
      * @param Cleaner $cleaner
      * @return \Illuminate\Http\JsonResponse
      */
-    protected function clear(Request $request, Cleaner $cleaner)
+    public function clear(Request $request, Cleaner $cleaner)
     {
         return response()->json([
             'result' => $cleaner->clear($request->get('token'))
