@@ -49,6 +49,11 @@ All done! Your OPcache is resetted!
 
 ### Customizations
 
+Publish package config, if not published:
+```bash
+php artisan vendor:publish --provider="Maximkou\LaravelOpcacheClear\OpcacheClearServiceProvider"
+```
+
 All settings is placed in `config/laravel-opcache-clear.php`
 
 * Change uri of cleaner action by editing `uri_slug` option (by default is `opcache-clear`).
