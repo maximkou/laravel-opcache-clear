@@ -17,7 +17,8 @@
             "purge",
             "fpm",
             "php-fpm",
-            "michelecurletta/laravel-opcache-clear"
+            "michelecurletta",
+            "laravel-opcache-clear"
         ],
     "license": "MIT",
     "authors": [
