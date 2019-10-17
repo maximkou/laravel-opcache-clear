@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 /**
  * Class OpcacheClearServiceProvider
- * @package MicheleCurletta\LaravelOpcacheClear
+ * @package Maximkou\LaravelOpcacheClear
  */
 class OpcacheClearServiceProvider extends ServiceProvider
 {

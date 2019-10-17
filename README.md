@@ -1,8 +1,6 @@
 # Clear OPcache with ease
 This Laravel 5 package allows you to clear OPcache, solving a common problem related to cache invalidation during atomic deployments (also called "zero downtime deploy").
 
-_Originally copied from michelecurletta/laravel-opcache-clear, because it is abandoned and now removed._
-
 ## Getting Started
 
 These instructions allows you to install the package into an existing Laravel app.

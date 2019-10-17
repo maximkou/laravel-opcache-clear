@@ -5,9 +5,8 @@ namespace Maximkou\LaravelOpcacheClear;
 use Illuminate\Console\Command;
 
 /**
- * Artisan command for cleaning opcache
  * Class OpcacheClearCommand
- * @package MicheleCurletta\LaravelOpcacheClear
+ * @package Maximkou\LaravelOpcacheClear
  */
 class OpcacheClearCommand extends Command
 {

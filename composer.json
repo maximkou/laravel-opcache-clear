@@ -19,15 +19,10 @@
             "purge",
             "fpm",
             "php-fpm",
-            "michelecurletta",
             "laravel-opcache-clear"
         ],
     "license": "MIT",
     "authors": [
-        {
-            "name": "Michele Giovanni Curletta",
-            "email": "michele.curletta@icloud.com"
-        },
         {
             "name": "Maksim Khodyrev",
             "email": "maximkou@gmail.com"
